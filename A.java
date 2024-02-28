@@ -21,6 +21,8 @@ public class A {
 
         System.out.println(radiusSum > distance? "SI" : "NO");
 
+        scan.close();
+
     }
 
 }
