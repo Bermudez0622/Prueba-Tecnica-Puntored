@@ -17,8 +17,8 @@ public class C {
             String[] values = input.split(" ");
 
             int amount = Integer.parseInt(values[0]);
-            int cost = Integer.parseInt(values[1]);
-            String result = Integer.toString(amount * cost);
+            long cost = Long.parseLong(values[1]);
+            String result = Long.toString(amount * cost);
 
             System.out.println(result.length() == 5? "NO" : "SI");
 
